@@ -1,5 +1,5 @@
 html {
-    background-image: url(https://wallpaperset.com/w/full/5/0/7/97530.jpg);
+    background-image: url(https://cdn.discordapp.com/attachments/912206379111043112/1050332742388293642/Comp_1.gif);
     background-repeat: no-repeat;
     background-attachment: fixed fixed;
     background-size: cover;
@@ -12,16 +12,26 @@ html {
 #card {
     display: block;
     text-align: center;
-    border: 1px solid rgb(60, 255, 0);
+    border: 1px solid rgb(126, 26, 172);
     border-radius: 8px;
     width: 30rem;
     padding: 1rem;
     margin: 5rem auto;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(2px);
-    box-shadow: 0 0 .25rem rgba(60, 255, 0, 0.5), -.125rem -.125rem 1rem rgba(60, 255, 0, 0.5), .125rem .125rem 1rem rgba(60, 255, 0, 0.5);
+    box-shadow: 0 0 .25rem rgba(247, 2, 255, 0.5), -.125rem -.125rem 1rem rgba(247, 2, 255, 0.5), .125rem .125rem 1rem rgba(247, 2, 255, 0.5);
 }
+.left-card {
+    float: left;
+    
+}  
 
+.right-card {
+    float: right;
+}  
+.float-container {
+    padding: 20px;
+}
 
 #profile {
     width: 200px;
@@ -68,8 +78,8 @@ html {
 #react,
 #java {
     display: inline-flex;
-    color: white;
-    border: 1px solid white;
+    color: rgb(0, 217, 255);
+    border: 1px solid rgb(0, 217, 255);
     border-radius: 8px;
     padding: 0.25rem 1rem;
     margin: 4px;
@@ -83,9 +93,9 @@ html {
 #react:hover,
 #java:hover {
     scale: 1.1;
-    background-color: aliceblue;
+    background-color: rgb(0, 217, 255);
     transition: 0.4s ease-out;
-    color: black;
+    color: rgb(176, 16, 216);
 }
 
 
@@ -121,7 +131,7 @@ a {
 }
 
 button {
-    background: linear-gradient(to bottom right, #1eff00, #000000);
+    background: linear-gradient(to bottom right, #b40df7, #0dc8f7);
     border: 0;
     border-radius: 12px;
     color: #FFFFFF;
@@ -142,9 +152,9 @@ button {
 }
 
 button:not([disabled]):focus {
-    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(71, 239, 85, 0.5), .125rem .125rem 1rem rgba(104, 255, 90, 0.5);
+    box-shadow: 0 0 .25rem rgba(13, 160, 228, 0.5), -.125rem -.125rem 1rem rgba(211, 71, 239, 0.5), .125rem .125rem 1rem rgba(217, 90, 255, 0.5);
 }
 
 button:not([disabled]):hover {
-    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(71, 239, 85, 0.5), .125rem .125rem 1rem rgba(104, 255, 90, 0.5);
+    box-shadow: 0 0 .25rem rgba(13, 160, 228, 0.5), -.125rem -.125rem 1rem rgba(211, 71, 239, 0.5), .125rem .125rem 1rem rgba(217, 90, 255, 0.5);
 }
